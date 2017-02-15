@@ -1,0 +1,153 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+/*HOME*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+    font-family: Montserrat, sans-serif;
+}
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+  /*Home Carousel*/
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+  /*Home Carousel END*/
+/*HOME END*/
+/*BAND*/
+.container {
+  padding: 80px 120px;
+}
+.person {
+  opacity: 0.7;
+  border: 10px solid transparent;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+  margin-bottom: 25px; 
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+/*BAND END*/
+/*TOUR*/
+#bg-gray {
+  background-color: #2D2D30;
+  color: #bdbdbd;
+}
+#bg-gray h3 {
+  color: #fff;
+}
+#tour li {
+  color: #bdbdbd;
+}
+.thumbnail {
+  padding: 0 0 15px 0; /*убирает рамку фото*/
+  border-radius: 0;
+  border: none;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 0;
+  color: #fff;
+  background-color: #2D2D30;
+  transition: .2s; /*Добавляет небольшую паузу при наведении*/
+}
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+  /*TOUR Modal*/
+.modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+  /*TOUR Modal END*/
+/*TOUR END*/
+/*CONTACT*/
+.form-control {
+      border-radius: 0;
+}
+.nav-tabs li a {
+      color: #777;
+}
+  /*CONTACT MAP*/
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white */
+}
+  /*CONTACT MAP END*/
+/*CONTACT END*/
+/*FOOTER*/
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+/*FOOTER END*/
